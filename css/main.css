@@ -1,0 +1,72 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    margin: 40px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.avatar {
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.avatar img {
+    width: 100%;
+}
+
+.information {
+    margin-bottom: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hobbies {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.hobbies h2 {
+    font-size: 40px;
+}
+
+.hobbies ul {
+    padding: 0;
+}
+
+.hobbies li {
+    list-style: none;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.movie {
+    width: 80%;
+    text-align: left;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid #333;
+    margin: 40px auto;
+}
+
+/* ////////////////////////////////////// */
+p {
+    font-size: 15pt;
+    font-family: Tahoma;
+    color: #222;
+    text-align: center;
+}
+
+h1 {
+    font-size: 34pt;
+    font-family: Arial;
+    color: #444;
+    text-align: center;
+}
